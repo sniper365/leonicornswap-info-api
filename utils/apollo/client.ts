@@ -5,7 +5,7 @@ export const client = new ApolloClient({
   link: new HttpLink({
     fetch,
     // uri: "https://api.bscgraph.org/subgraphs/name/pancakeswap/exchange-lite",
-    uri: "https://api.thegraph.com/subgraphs/name/crypto0390/leonicornswap",
+    uri: "https://api.thegraph.com/subgraphs/name/sniper365/leonicorswap",
   }),
   cache: new InMemoryCache(),
 });
